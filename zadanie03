@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Szymon Niedbała">
+    <title>StrukturaStrony</title>
+    <link rel="icon" href="ikona.ico">
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 20px;
+        }
+        header, nav, main, footer{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tytuł Strony</h1>
+    </header>
+    
+    
+    <nav>menu strony</nav>
+
+
+    <main>
+        <!-- section*3>(h2{sekcja $}article{artykuł $}) uruchomienie -> [Ctrl+Spacja]-->
+        <section>
+            <h2>Formaowanie tekstu</h2>
+            <article>
+                <p><b>Tekst pogrubiony znacznik b</b></p>
+                <p><strong>Tekst pogrubiony znacznik strong</strong></p>
+                <p><u>Tekst podkreślony znacznik u</u></p>
+                <p><i>Tekst pochylony znacznik i</i></p>
+                <p><em>Tekst pochylony znacznik em</em></p>
+                <!--Znacznik strike jest przestażały - nie używamy go-->
+                <p><strike>Tekst przekreślny znacznik strike</strike></p>
+                <p><s>Tekst przekreślony znacznik s</s></p>
+                <p><small>Tekst pogrubiony znacznik small</small></p>
+            </article>
+        </section>
+        <section>
+            <h2>indeksy</h2>
+            <h3>indeks górny &ltsup&gt</h3>
+            <p>16<sup>30</sup></p>
+            <p>f(x)=x<sup>3</sup>+x<sup>2</sup>+x+1</p>
+            <h4>indeks dolny &ltsub&gt</h4>
+            <p>H<sup>2</sup>SO<sub>4</sub></p>
+            <p>Fe<sub>2</sub>O<sub>3</sub></p>
+            <p>C<sub>6</sub>H<sub>12</sub>O<sub>6</sub></p>
+        </section>
+        <section>
+            <h2>Znaki specjalne</h2>
+            <article>artykuł 3</article>
+        </section>
+    </main>
+
+
+    <footer>stopka strony</footer>
+
+</body>
+</html>
