@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Szymon Niedbała">
+    <title>Listy</title>
+    <style>
+        body{
+             font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 20px;
+        }h1, h2, footer {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Listy</h1>
+    </header>
+    <main>
+        <h2>lista punktowa (nieuporządkowana)</h2>
+        <ul>
+            <!-- li*3{element $} -->
+            <li>element 1</li>
+            <li>element 2</li>
+            <li>element 3</li>
+        </ul>
+        <h2>Lista punktowa - zmiana punktora</h2>
+        <!-- ul>li*3{element $} -->
+        <ul style="list-style: circle;">
+            <li>element 1</li>
+            <li>element 2</li>
+            <li>element 3</li>
+        </ul>
+        <h2>Lista numerowana</h2>
+        <ol>
+            <li>element 1</li>
+            <li>element 2</li>
+            <li>element 3</li>
+        </ol>
+        <h2>Lista numerowana - zmiana numeracji</h2>
+        <!-- ol[style="list style: upper-roman;"]>li*3{element $} -->
+        <ol style="list-style: upper-roman;">
+            <li>element 1</li>
+            <li>element 2</li>
+            <li>element 3</li>
+        </ol>
+    </main>
+    
+    <footer>
+        <h2>Listy- autor: Szymon Niedbała<sup>&copy;</sup> -2024 </h2>
+    </footer>
+
+</body>
+</html>
