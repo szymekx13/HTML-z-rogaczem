@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista mieszkańców</title>
+</head>
+<style>
+    body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }header, footer{
+        text-align: center;
+    }
+</style>
+<header>
+    <h1>Lista mieszkańców</h1>
+</header>
+<body>
+    <main>
+        <ol>
+        <li>
+            <b>ulica numer 1</b>
+            <!-- ol[style="list-style: lower-alpha;"]>li*5{blok numer $} -->
+            <ol style="list-style: lower-alpha;">
+                <li>blok numer 1</li>
+                <ol style="list-style: circle;">
+                    <li><i>Nazwisko 1</i></li>
+                    <li><i>Nazwisko 2</i></li>
+                    <li><i>Nazwisko 3</i></li>
+                    <li><i>Nazwisko 4</i></li>
+                    <li><i>Nazwisko 5</i></li>
+                </ol>
+                <li>blok numer 2</li>
+                <ol style="list-style: circle;">
+                    <li><i>Nazwisko 1</i></li>
+                    <li><i>Nazwisko 2</i></li>
+                    <li><i>Nazwisko 3</i></li>
+                    <li><i>Nazwisko 4</i></li>
+                    <li><i>Nazwisko 5</i></li>
+                </ol>
+                <li>blok numer 3</li>
+                <ol style="list-style: circle;">
+                    <li><i>Nazwisko 1</i></li>
+                    <li><i>Nazwisko 2</i></li>
+                    <li><i>Nazwisko 3</i></li>
+                    <li><i>Nazwisko 4</i></li>
+                    <li><i>Nazwisko 5</i></li>
+                </ol>
+                <li>blok numer 4</li>
+                <ol style="list-style: circle;">
+                    <li><i>Nazwisko 1</i></li>
+                    <li><i>Nazwisko 2</i></li>
+                    <li><i>Nazwisko 3</i></li>
+                    <li><i>Nazwisko 4</i></li>
+                    <li><i>Nazwisko 5</i></li>
+                </ol>
+                <li>blok numer 5</li>
+                <ol style="list-style: circle;">
+                    <li><i>Nazwisko 1</i></li>
+                    <li><i>Nazwisko 2</i></li>
+                    <li><i>Nazwisko 3</i></li>
+                    <li><i>Nazwisko 4</i></li>
+                    <li><i>Nazwisko 5</i></li>
+                </ol>
+            </ol>
+        </li>
+        <li>
+            <b>ulica numer 2</b>
+            <ol style="list-style: lower-alpha;">
+                <li>blok numer 1</li>
+                <ol style="list-style: circle;">
+                    <li><i>Nazwisko 1</i></li>
+                    <li><i>Nazwisko 2</i></li>
+                    <li><i>Nazwisko 3</i></li>
+                    <li><i>Nazwisko 4</i></li>
+                    <li><i>Nazwisko 5</i></li>
+                </ol>
+                <li>blok numer 2</li>
+                <li>blok numer 3</li>
+                <li>blok numer 4</li>
+                <ol style="list-style: circle;">
+                    <li><i>Nazwisko 1</i></li>
+                    <li><i>Nazwisko 2</i></li>
+                    <li><i>Nazwisko 3</i></li>
+                    <li><i>Nazwisko 4</i></li>
+                    <li><i>Nazwisko 5</i></li>
+                </ol>
+                <li>blok numer 5</li>
+            </ol>
+        </li>
+        <li>
+            <b>ulica numer 3</b>
+            <ol style="list-style: lower-alpha;">
+                <li>blok numer 1</li>
+                <li>blok numer 2</li>
+                <ol style="list-style: circle;">
+                    <li><i>Nazwisko 1</i></li>
+                    <li><i>Nazwisko 2</i></li>
+                    <li><i>Nazwisko 3</i></li>
+                    <li><i>Nazwisko 4</i></li>
+                    <li><i>Nazwisko 5</i></li>
+                </ol>
+                <li>blok numer 3</li>
+                <li>blok numer 4</li>
+                <ol style="list-style: circle;">
+                    <li><i>Nazwisko 1</i></li>
+                    <li><i>Nazwisko 2</i></li>
+                    <li><i>Nazwisko 3</i></li>
+                    <li><i>Nazwisko 4</i></li>
+                    <li><i>Nazwisko 5</i></li>
+                </ol>
+                <li>blok numer 5</li>
+                <ol style="list-style: circle;">
+                    <li><i>Nazwisko 1</i></li>
+                    <li><i>Nazwisko 2</i></li>
+                    <li><i>Nazwisko 3</i></li>
+                    <li><i>Nazwisko 4</i></li>
+                    <li><i>Nazwisko 5</i></li>
+                </ol>
+            </ol>
+        </li>
+        <li>
+            <b>ulica numer 4</b>
+            <ol style="list-style: lower-alpha;">
+                <li>blok numer 1</li>
+                <ol style="list-style: circle;">
+                    <li><i>Nazwisko 1</i></li>
+                    <li><i>Nazwisko 2</i></li>
+                    <li><i>Nazwisko 3</i></li>
+                    <li><i>Nazwisko 4</i></li>
+                    <li><i>Nazwisko 5</i></li>
+                </ol>
+                <li>blok numer 2</li>
+                <li>blok numer 3</li>
+                <ol style="list-style: circle;">
+                    <li><i>Nazwisko 1</i></li>
+                    <li><i>Nazwisko 2</i></li>
+                    <li><i>Nazwisko 3</i></li>
+                    <li><i>Nazwisko 4</i></li>
+                    <li><i>Nazwisko 5</i></li>
+                </ol>
+                <li>blok numer 4</li>
+                <ol style="list-style: circle;">
+                    <li><i>Nazwisko 1</i></li>
+                    <li><i>Nazwisko 2</i></li>
+                    <li><i>Nazwisko 3</i></li>
+                    <li><i>Nazwisko 4</i></li>
+                    <li><i>Nazwisko 5</i></li>
+                </ol>
+                <li>blok numer 5</li>
+            </ol>
+        </li>
+        <li>
+            <b>ulica numer 5</b>
+            <ol style="list-style: lower-alpha;">
+                <li>blok numer 1</li>
+                <ol style="list-style: circle;">
+                    <li><i>Nazwisko 1</i></li>
+                    <li><i>Nazwisko 2</i></li>
+                    <li><i>Nazwisko 3</i></li>
+                    <li><i>Nazwisko 4</i></li>
+                    <li><i>Nazwisko 5</i></li>
+                </ol>
+                <li>blok numer 2</li>
+                <li>blok numer 3</li>
+                <ol style="list-style: circle;">
+                    <li><i>Nazwisko 1</i></li>
+                    <li><i>Nazwisko 2</i></li>
+                    <li><i>Nazwisko 3</i></li>
+                    <li><i>Nazwisko 4</i></li>
+                    <li><i>Nazwisko 5</i></li>
+                </ol>
+                <li>blok numer 4</li>
+                <li>blok numer 5</li>
+                <ol style="list-style: circle;">
+                    <li><i>Nazwisko 1</i></li>
+                    <li><i>Nazwisko 2</i></li>
+                    <li><i>Nazwisko 3</i></li>
+                    <li><i>Nazwisko 4</i></li>
+                    <li><i>Nazwisko 5</i></li>
+                </ol>
+            </ol>
+        </li>
+        <li>
+            <b>ulica numer 6</b>
+            <ol style="list-style: lower-alpha;">
+                <li>blok numer 1</li>
+                <ol style="list-style: circle;">
+                    <li><i>Nazwisko 1</i></li>
+                    <li><i>Nazwisko 2</i></li>
+                    <li><i>Nazwisko 3</i></li>
+                    <li><i>Nazwisko 4</i></li>
+                    <li><i>Nazwisko 5</i></li>
+                </ol>
+                <li>blok numer 2</li>
+                <li>blok numer 3</li>
+                <li>blok numer 4</li>
+                <li>blok numer 5</li>
+                <ol style="list-style: circle;">
+                    <li><i>Nazwisko 1</i></li>
+                    <li><i>Nazwisko 2</i></li>
+                    <li><i>Nazwisko 3</i></li>
+                    <li><i>Nazwisko 4</i></li>
+                    <li><i>Nazwisko 5</i></li>
+                </ol>
+            </ol>
+        </li>
+        <li>
+            <b>ulica numer 7</b>
+            <ol style="list-style: lower-alpha;">
+                <li>blok numer 1</li>
+                <li>blok numer 2</li>
+                <ol style="list-style: circle;">
+                    <li><i>Nazwisko 1</i></li>
+                    <li><i>Nazwisko 2</i></li>
+                    <li><i>Nazwisko 3</i></li>
+                    <li><i>Nazwisko 4</i></li>
+                    <li><i>Nazwisko 5</i></li>
+                </ol>
+                <li>blok numer 3</li>
+                <li>blok numer 4</li>
+                <ol style="list-style: circle;">
+                    <li><i>Nazwisko 1</i></li>
+                    <li><i>Nazwisko 2</i></li>
+                    <li><i>Nazwisko 3</i></li>
+                    <li><i>Nazwisko 4</i></li>
+                    <li><i>Nazwisko 5</i></li>
+                </ol>
+                <li>blok numer 5</li>
+            </ol>
+        </li>
+        <li>
+            <b>ulica numer 8</b>
+            <ol style="list-style: lower-alpha;">
+                <li>blok numer 1</li>
+                <li>blok numer 2</li>
+                <ol style="list-style: circle;">
+                    <li><i>Nazwisko 1</i></li>
+                    <li><i>Nazwisko 2</i></li>
+                    <li><i>Nazwisko 3</i></li>
+                    <li><i>Nazwisko 4</i></li>
+                    <li><i>Nazwisko 5</i></li>
+                </ol>
+                <li>blok numer 3</li>
+                <ol style="list-style: circle;">
+                    <li><i>Nazwisko 1</i></li>
+                    <li><i>Nazwisko 2</i></li>
+                    <li><i>Nazwisko 3</i></li>
+                    <li><i>Nazwisko 4</i></li>
+                    <li><i>Nazwisko 5</i></li>
+                </ol>
+                <li>blok numer 4</li>
+                <li>blok numer 5</li>
+                <ol style="list-style: circle;">
+                    <li><i>Nazwisko 1</i></li>
+                    <li><i>Nazwisko 2</i></li>
+                    <li><i>Nazwisko 3</i></li>
+                    <li><i>Nazwisko 4</i></li>
+                    <li><i>Nazwisko 5</i></li>
+                </ol>
+            </ol>
+        </li>
+        <li>
+            <b>ulica numer 9</b>
+            <ol style="list-style: lower-alpha;">
+                <li>blok numer 1</li>
+                <ol style="list-style: circle;">
+                    <li><i>Nazwisko 1</i></li>
+                    <li><i>Nazwisko 2</i></li>
+                    <li><i>Nazwisko 3</i></li>
+                    <li><i>Nazwisko 4</i></li>
+                    <li><i>Nazwisko 5</i></li>
+                </ol>
+                <li>blok numer 2</li>
+                <li>blok numer 3</li>
+                <ol style="list-style: circle;">
+                    <li><i>Nazwisko 1</i></li>
+                    <li><i>Nazwisko 2</i></li>
+                    <li><i>Nazwisko 3</i></li>
+                    <li><i>Nazwisko 4</i></li>
+                    <li><i>Nazwisko 5</i></li>
+                </ol>
+                <li>blok numer 4</li>
+                <li>blok numer 5</li>
+                <ol style="list-style: circle;">
+                    <li><i>Nazwisko 1</i></li>
+                    <li><i>Nazwisko 2</i></li>
+                    <li><i>Nazwisko 3</i></li>
+                    <li><i>Nazwisko 4</i></li>
+                    <li><i>Nazwisko 5</i></li>
+                </ol>
+            </ol>
+        </li>
+        <li>
+            <b>ulica numer 10</b>
+            <ol style="list-style: lower-alpha;">
+                <li>blok numer 1</li>
+                <ol style="list-style: circle;">
+                    <li><i>Nazwisko 1</i></li>
+                    <li><i>Nazwisko 2</i></li>
+                    <li><i>Nazwisko 3</i></li>
+                    <li><i>Nazwisko 4</i></li>
+                    <li><i>Nazwisko 5</i></li>
+                </ol>
+                <li>blok numer 2</li>
+                <li>blok numer 3</li>
+                <li>blok numer 4</li>
+                <li>blok numer 5</li>
+                <ol style="list-style: circle;">
+                    <li><i>Nazwisko 1</i></li>
+                    <li><i>Nazwisko 2</i></li>
+                    <li><i>Nazwisko 3</i></li>
+                    <li><i>Nazwisko 4</i></li>
+                    <li><i>Nazwisko 5</i></li>
+                </ol>
+            </ol>
+        </li>
+        </ol>
+    </main>
+    
+    <footer>
+        <h3>Administracja osiedla "😀😀😀PIĘKNY LASEK😀😀😀"</h3>
+    </footer>
+</body>
+</html>
