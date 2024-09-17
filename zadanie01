@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie numer 1</title>
+</head>
+<body>
+    <h1>Szymon Niedbała</h1>
+
+    <h2>Rozdział 1</h2>
+
+    <h2>Rozdział 2</h2>
+
+    <h2>Rozdział 3</h2>
+    <hr>
+    <p>Paragraf 1</p>
+    <p>Paragraf 2</p>
+    <p>Paragraf 3</p>
+    <hr>
+    <div>blok 1</div>
+    <div>blok 2</div>
+    <div>blok 3</div>
+    <hr>
+    <span style="color: hsl(216, 58%, 50%); font-family: Verdana, Geneva, Tahoma, sans-serif;">napis numer 1</span>
+    <span>napis numer 2</span>
+    <span>napis numer 3</span>
+    <hr>
+    <pre>
+    napis                   numer                    1 
+
+                            napis numer 2
+
+
+
+        napis numer 3
+    </pre>
+</body>
+</html>
