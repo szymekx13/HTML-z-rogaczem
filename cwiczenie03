@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Szymon Niedbała">
+    <title>Cwiczenie 03</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 20px;
+        }header, main, footer{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tworzenie list z zastosowaniem encji</h1>
+    </header>
+    <main>
+        <h2>
+            lista znaczników <b>&lt;div></b> od 01 do 30
+        </h2>
+        <h3>skrót encji</h3>
+        <h4>div*30{$$. pozycja}</h4>
+        <h5>wynik</h5>
+        <div>01.pozycja</div>
+        <div>02.pozycja</div>
+        <div>03.pozycja</div>
+        <div>04.pozycja</div>
+        <div>05.pozycja</div>
+        <div>06.pozycja</div>
+        <div>07.pozycja</div>
+        <div>08.pozycja</div>
+        <div>09.pozycja</div>
+        <div>10.pozycja</div>
+        <div>11.pozycja</div>
+        <div>12.pozycja</div>
+        <div>13.pozycja</div>
+        <div>14.pozycja</div>
+        <div>15.pozycja</div>
+        <div>16.pozycja</div>
+        <div>17.pozycja</div>
+        <div>18.pozycja</div>
+        <div>19.pozycja</div>
+        <div>20.pozycja</div>
+        <div>21.pozycja</div>
+        <div>22.pozycja</div>
+        <div>23.pozycja</div>
+        <div>24.pozycja</div>
+        <div>25.pozycja</div>
+        <div>26.pozycja</div>
+        <div>27.pozycja</div>
+        <div>28.pozycja</div>
+        <div>29.pozycja</div>
+        <div>30.pozycja</div>
+        <h2>Lista zróżnicowana</h2>
+        <h3>skrót encji</h3>
+        <h4>div{$->}*8>b{$}*5</h4>
+        <h5>wynik</h5>
+        <div>1-><b>1</b><b>2</b><b>3</b><b>4</b><b>5</b></div>
+        <div>2-><b>1</b><b>2</b><b>3</b><b>4</b><b>5</b></div>
+        <div>3-><b>1</b><b>2</b><b>3</b><b>4</b><b>5</b></div>
+        <div>4-><b>1</b><b>2</b><b>3</b><b>4</b><b>5</b></div>
+        <div>5-><b>1</b><b>2</b><b>3</b><b>4</b><b>5</b></div>
+        <div>6-><b>1</b><b>2</b><b>3</b><b>4</b><b>5</b></div>
+        <div>7-><b>1</b><b>2</b><b>3</b><b>4</b><b>5</b></div>
+        <div>8-><b>1</b><b>2</b><b>3</b><b>4</b><b>5</b></div>
+    </main>
+    <footer>
+        <hr>
+        <p><b>strona powstała</b> <i style="color: aqua;">24.09.2024</i></p>
+    </footer>
+</body>
+</html>
