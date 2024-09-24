@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Szymon Niedbała">
+    <title>Ćwiczenie 01</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 20px;
+        }body{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Szymon Niedbała</h1>
+    <hr>
+    <nav>
+        <h2>wizytówka</h2>
+    </nav>
+    <main>
+    <hr>
+    <h4>moje logo</h4>
+    <div style="font-size: 200px;">&#129302;</div>
+    <hr>
+</header>
+    <h2>Moje zainteresowania</h2>
+    <section>
+    <h3>...</h3>
+    <p>Lubie grać w piłkę nozną</p>
+    </section>
+    <section>
+        <h3>...</h3>
+        <p>Lubię też programować</p>
+    </section>
+    <section>
+        <h3>...</h3>
+        <p>Oraz grac w gry komputerowe</p>
+    </section>
+    </main>
+    <footer>
+        <hr>
+        <p><b>strona powstała</b><i style="color: aqua;"> 24.09.2024</i></p>
+    </footer>
+</body>
+</html>
