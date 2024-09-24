@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Szymon Niedbała">
+    <title>Cwiczenie 02</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 20px;
+        }body, header{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>wzory naukowe</h1>
+    </header>
+    <main>
+        <hr>
+        <h3>matematyka</h3>
+        <h4>wzory matematyczne</h4>
+        <h5>Twierdzenie Pitagorasa</h5>
+        <h6>a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup></h6>
+        <h5>Logarytmy</h5>
+        <h6>a<sup>log<sup>a</sup>b</sup> = b</h6>
+        <h5>Delta</h5>
+        <h6>Δ = b<sup>2</sup> - 4ac</h6>
+        <h3>fizyka</h3>
+        <h4>E = m*c<sup>2</sup></h4>
+        <h3>chemia</h3>
+        <h4>K<sub>2</sub>O</h4>
+    </main>
+    <footer>
+        <hr>
+        <p><b>strona powstała</b><i style="color: aqua;"> 24.09.2024</i></p>
+    </footer>
+</body>
+</html>
