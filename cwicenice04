@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Szymon Niedbała">
+    <title>Cwiczenie 04</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 20px;
+        }header{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>KONTYNENTY</h1>
+    </header>
+    <main style="margin-left: 20%;">
+        <ol style="list-style: upper-roman;">
+            <li>
+                Europa
+                <ol style="list-style: decimal;">
+                    <li>Polska
+                        <ol style="list-style: lower-latin;">
+                            <li>Warszawa
+                                <ol style="list-style: circle;">
+                                    <li>Śródmieście</li>
+                                    <li>Mokotów</li>
+                                    <li>Białołęka</li>
+                                </ol>
+                            </li>
+                            <li>Kraków</li>
+                            <ol style="list-style: circle;">
+                                <li>Stare Miasto</li>
+                                <li>Krowodrza</li>
+                                <li>Prądnik Czerwony</li>
+                            </ol>
+                        </ol>
+                    </li>
+                    <li>Niemcy
+                        <ol style="list-style: lower-latin;">
+                            <li>Berlin
+                                <ol style="list-style: circle;">
+                                    <li>Dzielnica I</li>
+                                    <li>Dzielnica II</li>
+                                    <li>Dzielnica III</li>
+                                </ol>
+                            </li>
+                            <li>Hamburg</li>
+                            <ol style="list-style: circle;">
+                                <li>Dzielnica I</li>
+                                <li>Dzielnica II</li>
+                                <li>Dzielnica III</li>
+                            </ol>
+                        </ol>
+
+                    </li>
+                    <li>Norwegia
+                        <ol style="list-style: lower-latin;">
+                            <li>Oslo
+                                <ol style="list-style: circle;">
+                                    <li>Dzielnica I</li>
+                                    <li>Dzielnica II</li>
+                                    <li>Dzielnica III</li>
+                                </ol>
+                            </li>
+                            <li>Bergen</li>
+                            <ol style="list-style: circle;">
+                                <li>Dzielnica I</li>
+                                <li>Dzielnica II</li>
+                                <li>Dzielnica III</li>
+                            </ol>
+                        </ol>
+                    </li>
+                    <li>Francja
+                        <ol style="list-style: lower-latin;">
+                            <li>Paryż
+                                <ol style="list-style: circle;">
+                                    <li>Dzielnica I</li>
+                                    <li>Dzielnica II</li>
+                                    <li>Dzielnica III</li>
+                                </ol>
+                            </li>
+                            <li>Marsylia</li>
+                            <ol style="list-style: circle;">
+                                <li>Dzielnica I</li>
+                                <li>Dzielnica II</li>
+                                <li>Dzielnica III</li>
+                            </ol>
+                        </ol>
+
+                    </li>
+                </ol>
+            </li>
+            <li>
+                Azja
+                <ol style="list-style: decimal;">
+                    <li>Japonia</li>
+                </ol>
+            </li>
+            <li>
+                Afryka
+                <ol style="list-style: decimal;">
+                    <li>RPA</li>
+                </ol>
+            </li>
+            <li>
+                Ameryka Północna
+            </li>
+            <li>
+                Ameryka Południowa
+            </li>
+            <li>
+                Australia
+            </li>
+            <li>
+                Antarktyda
+            </li>
+        </ol>
+    </main>
+</body>
+</html>
