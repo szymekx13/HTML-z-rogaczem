@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie03</title>
+<style>
+    body { 
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        font-size: 20px; 
+        } 
+        header, footer { 
+        text-align: center; 
+        } 
+        main { 
+        margin: 0 30%; 
+        } 
+        i { 
+        color: rgb(2, 134, 167);
+        font-weight: normal; 
+        }
+</style>
+</head>
+<body>
+    <header>
+        <h1>skróty emmet</h1>
+    </header>
+    <main>
+    <h2>
+        Co dają?
+    </h2>
+    <p>Generujemy złoony kod HTML jednym polecniem np.:</p>
+    <p>lista numerowana z 30 pozycjami</p>
+    <p><b>ol>li*30</b></p>
+    <p>tabela złożona z 10 wierszy po 5 kolumn w każdym</p>
+    <p><b>table>tr*10>td*5</b></p>
+    <hr>
+    <h2>emmet + znaki specjalne</h2>
+    <p>Przykład połączenia znaków specjalnych ze skrótami <b>emmet</b></p>
+    <p>Wykorzystamy znak o kodzie <b>&amp;#129321;</b> czyli &#129321</p>
+    <p>Dodamy <b>&lt;span style="font-size:40px"></b></p>
+    <p>Otrzymamy <ispan style="font-size: 40px;">&#129321</ispan></p>
+    <p>tworzymy "buźki*10" kodem:</p>
+    <p><b>div[style="font-size:40px"]>span{&#129321}*10</b></p>
+    <p>efekt:</p>
+    <p><div style="font-size:40px"><span>&#129321</span><span>&#129321</span><span>&#129321</span><span>&#129321</span><span>&#129321</span><span>&#129321</span><span>&#129321</span><span>&#129321</span><span>&#129321</span><span>&#129321</span></div></p>
+    <p>powiększenie znaku buźki do np. 60px to:</p>
+    <p><b>div[style="font-size:60px"]>span{&#129321}*10</b></p>
+    <p>"Aktywacja" kodu emmet: kursor na końcu skrótu i: [Ctrl] + [spacja]</p>
+    </main>
+    <footer>
+        <hr>
+        <p><b>Autor: Szymon Niedbała&copy;</b><i style="color: aqua;"> 08/10/2024</i></p>
+    </footer>
+</body>
+</html>
