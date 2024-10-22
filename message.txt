@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+
+        }
+        table{
+            /* Laczenie komorek tabeli */
+            border-collapse: collapse;
+            width:80%;
+             /* centrowanie tabeli */
+            margin:10px auto;
+        }
+        th,td{
+            border:1px solid black;
+             /* margines wewnetrzny  */
+            padding: 5px 10px;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header><h1>"drabinka" turniejowa - 16 drużyn</h1></header>
+<main>
+    <table>
+    <tr>
+        <th>eliminacje</th>
+        <th>1/8 finału</th>
+        <th>1/4 finału</th>
+        <th>półfinał</th>
+        <th>finał</th>
+    </tr>
+    <tr>
+        <th>1</th>
+        <th rowspan="2">A <br> (1-2)</th>
+        <th rowspan="4"><br>QF 1 <br> (A-B) <br></th>
+        <th rowspan="8"><br>PF 1 <br>(QF 1 - QF 2) <br></th>
+        <th rowspan="16"><br>PF 1 <br> -- <br> PF 2 <br></th>
+    </tr>
+    <tr>
+        <th>2</th>
+    </tr>
+    <tr>
+        <th>3</th>
+        <th rowspan="2">B <br> (3-4)</th>
+    </tr>
+    <tr>
+        <th>4</th>
+    </tr>
+    <tr>
+        <th>5</th>
+        <th rowspan="2">C <br> (5-6)</th>
+        <th rowspan="4"><br>QF 2 <br> (C-D) <br></th>
+    </tr>
+    <tr>
+        <th>6</th>
+    </tr>
+    <tr>
+        <th>7</th>
+        <th rowspan="2">D <br> (7-8)</th>
+    </tr>
+    <tr>
+        <th>8</th>
+    </tr>
+    <tr>
+        <th>9</th>
+        <th rowspan="2">E <br> (9-10)</th>
+        <th rowspan="4"><br>QF 3 <br> (E-F) <br></th>
+        <th rowspan="8"><br>PF 1 <br>(QF 1 - QF 2) <br></th>
+    </tr>
+    <tr>
+        <th>10</th>
+    </tr>
+    <tr>
+        <th>11</th>
+        <th rowspan="2">F <br> (11-12)</th>
+    </tr>
+    <tr>
+        <th>12</th>
+    </tr>
+    <tr>
+        <th>13</th>
+        <th rowspan="2">G <br> (13-14)</th>
+        <th rowspan="4"><br>QF 4 <br> (G-H) <br></th>
+    </tr>
+    <tr>
+        <th>14</th>
+    </tr>
+    <tr>
+        <th>15</th>
+        <th rowspan="2">G <br> (15-16)</th>
+    </tr>
+    <tr>
+        <th>16</th>
+    </tr>
+    </table>
+</main>
+</body>
+</html>
